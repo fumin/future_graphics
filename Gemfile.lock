@@ -1,0 +1,23 @@
+GEM
+  specs:
+    jellyfish (0.6.0)
+    kgio (2.7.4)
+    rack (1.4.4)
+    rainbows (4.4.2)
+      kgio (~> 2.5)
+      rack (~> 1.1)
+      unicorn (~> 4.1)
+    raindrops (0.10.0)
+    unicorn (4.5.0)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
+    zbatery (4.1.2)
+      rainbows (~> 4.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  jellyfish
+  zbatery
