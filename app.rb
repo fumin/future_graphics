@@ -1,4 +1,5 @@
 require 'jellyfish'
+require 'erb'
 VIEWS = {index: File.read('views/index.html.erb'),
          original: File.read('views/original.html.erb'),
          colour: File.read('views/colour.html.erb'),
